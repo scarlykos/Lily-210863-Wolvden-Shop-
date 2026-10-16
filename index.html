@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- IMPORTANT FOR MOBILE & TABLET RESPONSIVENESS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulCollector's Wolf Trading Post</title>
+    <!-- Change the href if your CSS file name is different (e.g., style.css) -->
+    <link rel="stylesheet" href="Shop-CSS.css">
+    <style>
+        /* Zusätzlicher Style für die Zentrierung des Studs */
+        .stud-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            width: 100%;
+        }
+        .stud-container .wolf-card {
+            width: 100%;
+            max-width: 480px; /* Gleiche maximale Breite wie eine Standard-Karte im Grid */
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Credits Bar -->
+    <div class="top-credits-bar">
+        <span href="https://www.wolvden.com/profile/210062" class="credits-text">Credits to SoulCollector #210062</span>
+        <a href="https://bit.ly/m/Soul-Collector" class="credits-btn" target="_blank">Social Media</a>
+    </div>
+
+    <main class="shop-container">
+        <!-- Header -->
+        <header class="shop-header">
+            <h1>👑 SoulCollector's Wolf Trading Post 👑</h1>
+            <p class="welcome-text">Welcome to the shop! Browse through the categories below. Click the buttons under the wolves to view them directly in my den or claim them!</p>
+        </header>
+
+        <!-- Info Box with Table of Contents -->
+        <section class="info-box">
+            <h2>📜 How to Order & Info:</h2>
+            <p>Send me a private message stating the wolf you want and whether you'd like to buy or place a reservation. Wardrobe preview links with 100% opacity can be found directly in the bios of some Wolfs!</p>
+            <p class="note"><strong>Note:</strong> I am working on a project, so there might be some T8 markings or rare markings up for Free or sold for cheap, cause they are just not my target.</p>
+            
+            <!-- Added Categories / Table of Contents -->
+            <div class="shop-toc" style="margin-top: 20px; padding-top: 15px; border-top: 1px dashed var(--border-color);">
+                <p style="font-weight: bold; margin-bottom: 10px; color: var(--gold);">📁 Shop Directory / Available Categories:</p>
+                <ul style="list-style: none; padding-left: 0; display: flex; flex-direction: column; gap: 8px;">
+                    <li>🔥 <a href="#stud" style="color: var(--text-color); text-decoration: none; border-bottom: 1px dotted var(--gold);">Featured Breeding Stud</a></li>
+                    <li>📉 <a href="#rarebases" style="color: var(--text-color); text-decoration: none; border-bottom: 1px dotted var(--gold);">Rare Bases (&lt; 1% Chance)</a></li>
+                    <li>🧬 <a href="#carriers" style="color: var(--text-color); text-decoration: none; border-bottom: 1px dotted var(--gold);">Carriers (Albino / Melanism)</a></li>
+                    <li>⚡ <a href="#highstats" style="color: var(--text-color); text-decoration: none; border-bottom: 1px dotted var(--gold);">High Stats (100+ Single Category)</a></li>
+                    <li>🐺 <a href="#tier1-2" style="color: var(--text-color); text-decoration: none; border-bottom: 1px dotted var(--gold);">Free Pups</a></li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- FEATURED BREEDING STUD (CENTERED) -->
+        <section class="category-section" id="stud">
+            <h2 style="text-align: center;">🔥 MY FEATURED BREEDING STUD 🔥</h2>
+            <div class="stud-container">
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <!-- Ersetze mit deinem Stud-Bildlink -->
+                        <img src="https://wolf.wolvden.com/f/3f/e0/4e/3fe04e221df7d7f3c4d0c0a69a6dc8f7c1565b22.12125855.1788513451.png" alt="Featured Breeding Stud" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>Str 179 | Spe 144 | Agi 156 | Wis 78 | Sma 78</h3>
+                        <p class="price">Stud Fee: <span>1 GC or 120 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/12125855" class="btn-view" target="_blank">Breed with Stud 🐾</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Category 3: Rare Bases Under 1% (High Value) -->
+       <section class="category-section" id="rarebases" style="margin-top: 40px;">
+            <h2>📉 RARE BASES (< 1% CHANCE)</h2>
+            <div class="wolf-grid">
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/01/8a/60/018a607898a8883b62462814c14018317246ebff.17978401.1788513329.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G17 | Agave (0.6%) | 2M | T6 | BI</h3>
+                        <p class="price">Price: <span>20 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17978401" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/07/4e/ec/074eec9d2aeadcc99bbd51290796c2859d0a2444.17978403.1788513374.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G17 | Diopside (0.55%) | 0M | T- | BI</h3>
+                        <p class="price">Price: <span>20 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17978403" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/2c/84/fa/2c84fab19d988aa088263e69b335f1ef7cf59363.17978398.1788513417.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G5 | Coot (0.28%) | 4M | T3 | BII</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17978398" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/93/3b/eb/933beb8e7680f4b131186bdd76f35321e53486a7.17885507.1788514650.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Coquina (0.2%) | 1M | T3 | BI</h3>
+                        <p class="price">Price: <span>30 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17885507" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/8b/8f/49/8b8f4939589378138f69174053b65ca24ccee083.17827398.1788514826.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G4 | Arkose (0.23%) | 3M | T8 | BII</h3>
+                        <p class="price">Price: <span>20 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17827398" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/03/8b/f8/038bf80e6a162650e1cdabc3ede6f43674fae208.17885705.1788514687.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G5 | Nocturne (0.43%) | 3M | T7 | BII</h3>
+                        <p class="price">Price: <span>20 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17885705" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/b4/4a/58/b44a58251ee9d3f61277656d63b02f37667dd259.17951110.1788513542.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Magnolia (0.47%) | 5M | T3 | BI</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17951110" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/93/7c/e2/937ce2969f0ec4b7093ec30e09cd3e3bcbb4cfab.17951109.1788513553.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Aquamarine (0.35%) | 2M | T8 | BI</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17951109" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/d1/b4/e8/d1b4e8e4f7abbcc5f17124a4e05ca1e97cadaa70.17998033.1788514739.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G17 | Red (0.62%) | 2M | T8 | BI</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17998033" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/d1/7d/28/d17d28d439cbd79d84969e478ae9a7781625f46f.17998034.1788514751.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G17 | Rust (0.34%) | 4M | T3 | BII</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17998034" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/3f/86/a4/3f86a46d889adec24382bc9247a2cd09d7ac407b.17998029.1788514769.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G17 | Willow (0.65%) | 2M | T3 | BI</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17998029" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/13/0d/96/130d9696779993dea03dee512f7ed090b0a8be33.17998032.1788514778.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G17 | Beryl (0.46%) | 2M | T6 | BI</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17998032" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/fd/18/aa/fd18aa6f6d4e91ec4cccb9995660bdc328ddc2ce.17985191.1788514230.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Dark Fawn (0.41%) | 1M | T8 | BI</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17985191" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/9a/74/1f/9a741fcba70ae33a1d9efec8006f350d0ae24edb.17985192.1788514211.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Willow (0.65%) | 2M | T8 | BI</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17985192" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/e0/bb/d3/e0bbd3f58cf66adcc5a31b50d8679956db003af2.17985193.1788514255.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Beryl (0.46%) | 1M | T8 | BI</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17985193" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/96/4f/3d/964f3d2a699b74672540f2635c051e4a16730303.17985194.1788514277.png" alt="Rare Base Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Liver (0.67%) | 1M | T8 | BI</h3>
+                        <p class="price">Price: <span>10 SC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17985194" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Category 4: Carriers (Solid Mid-High Value) -->
+        <section class="category-section" id="carriers" style="margin-top: 40px;">
+            <h2>🧬 CARRIERS (ALBINO / MELANISM)</h2>
+            <div class="wolf-grid">
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/0f/d2/99/0fd299c6f713cf4298ca58e00a878a62e1c418bd.17958133.1788515787.png" alt="Melanism Carrier" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>Melanism Carrier</h3>
+                        <h4>G33 | Dark Brown (2.09%) | 3M | T7 | BI</h4>
+                        <p class="price">Price: <span>100 SC or 1 GC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17958133" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Category 5: High Stats 100+ (Niche / Mid Value) -->
+        <section class="category-section" id="highstats" style="margin-top: 40px;">
+            <h2>⚡ HIGH STATS (100+ IN AT LEAST ONE CATEGORY)</h2>
+            <div class="wolf-grid">
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/bc/97/95/bc97955ea6dd5ecde61d5d304db26337686894cc.17792414.1788537958.png" alt="High Stat Wolf" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>Str 172 | Spe 152 | Agi 135 | Wis 75 | Sma 77</h3>
+                        <p class="price">Price: <span>100 SC or 1 GC</span></p>
+                        <a href="https://www.wolvden.com/wolf/17792414" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Category 6: Tier 1 & Tier 2 Bases (Common/Lower Value) -->
+        <section class="category-section" id="tier1-2" style="margin-top: 40px;">
+            <h2>🐺 Free Pups</h2>
+            <div class="wolf-grid">
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/2b/17/b9/2b17b9c37331527edb023c716425cccd14f16428.17978402.1788513383.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G17 | Skarn (1.17%) | 4M | T6 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/17978402" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/4f/61/69/4f6169f204768028b207315a51b6bf036e64a2eb.17978399.1788513426.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G5 | Marengo (3.62%) | 3M | T3 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/17978399" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/63/cd/12/63cd1231ae0c9bdc5508640a1ddd5d95a9437b02.17978400.1788513437.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G5 | Marengo (3.62%) | 4M | T3 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/17978400" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/4d/c7/25/4dc72589856acf9dc45606deea61fe99bb553980.17998028.1788514789.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G17 | Dark Brown (2.09%) | 3M | T8 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/17998028" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/86/7e/56/867e56212e92efc92bf50b51ba1ee74f6d4fa035.17998031.1788514800.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G17 | Liver (0.67%) | 3M | T3 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/17998031" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/7b/ad/d5/7badd5d015e4837e488f6a646e5791b4074b55cc.18016881.1788687530.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Aspen (0.23%) | 1M | T3 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/18016881" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/f4/8d/23/f48d2381d311fc9197762340ff5d17046a839016.18016882.1788688318.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Apricot (0.4%) | 3M | T3 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/18016881" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/d6/19/c6/d619c6b1f12ae206c77dd49372384cbfaa454b78.18016883.1788688367.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Gold Darker (1.26%) | 1M | T6 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/18016883" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/63/70/84/63708405b8c4a7f55aaae1b941c5ebeec147faef.18016884.1788688497.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Cedar (0.25%) | 4M | T8 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/18016884" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/31/87/e4/3187e4d5c2ea3d9561e6e13b9f471149f6219258.18016885.1788682253.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Dravite (0.36%) | 3M | T6 | BII</h3>
+                        <a href="https://www.wolvden.com/wolf/18016885" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/23/b4/d3/23b4d3e8f0dddaef9fc94fa5bcbd9b5f61f36f54.18016886.1788682253.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Henna (0.74%) | 5M | T6 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/18016886" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+                <article class="wolf-card">
+                    <div class="wolf-image-container">
+                        <img src="https://wolf.wolvden.com/f/ab/90/53/ab9053079c37f859fa3b06b3b7941f4ab7183d51.18016887.1788682253.png" alt="Free Pup" class="wolf-image">
+                    </div>
+                    <div class="wolf-info">
+                        <h3>G12 | Liver (0.66%) | 3M | T3 | BI</h3>
+                        <a href="https://www.wolvden.com/wolf/18016887" class="btn-view" target="_blank">View Wolf 🐾</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
